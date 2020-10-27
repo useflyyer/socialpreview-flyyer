@@ -15,19 +15,19 @@ declare module "*.jpg" {
   export = value;
 }
 
-declare module '*.css' {
+declare module "*.css" {
   const none: void;
-  export default none
+  export default none;
 }
-declare module '*.scss' {
+declare module "*.scss" {
   const none: void;
-  export default none
+  export default none;
 }
-declare module '*.sass' {
+declare module "*.sass" {
   const none: void;
-  export default none
+  export default none;
 }
-declare module '*.less' {
+declare module "*.less" {
   const none: void;
-  export default none
+  export default none;
 }
