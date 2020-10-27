@@ -31,11 +31,11 @@ export default function MainTemplate({ variables }) {
       <HeaderStart>
         <Logo>FLAYYER</Logo>
       </HeaderStart>
-      <IconsTop>
+      <IconsTop expanded>
         <SocialIcon src={Twitter} />
-        <SocialIcon src={Teams} background="white" fit="small" />
+        <SocialIcon src={Teams} background="white" fit="small" simplify={simplify} />
         <SocialIcon src={Discord} />
-        <SocialIcon src={Slack} background="white" fit="medium" />
+        <SocialIcon src={Slack} background="white" fit="medium" simplify={simplify} />
         <SocialIcon src={Messenger} />
       </IconsTop>
       <Content>
@@ -43,7 +43,7 @@ export default function MainTemplate({ variables }) {
         {description && <Description simplify={simplify}>{description}</Description>}
       </Content>
       <IconsBottom>
-        <SocialIcon src={Facebook} background="white" />
+        <SocialIcon src={Facebook} background="white" simplify={simplify} />
         <SocialIcon src={WhatsApp} />
         <SocialIcon src={Instagram} />
         <SocialIcon src={LinkedIn} />

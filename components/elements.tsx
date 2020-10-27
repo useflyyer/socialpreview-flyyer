@@ -47,13 +47,15 @@ export const SocialIcon = styled.img.attrs<{
   src: string;
   fit?: "medium" | "small" | null;
   background?: string | null;
+  simplify?: boolean | null;
 }>((props) => ({
   src: props.src,
-}))<{ src: string; fit?: "medium" | "small" | null; background?: string | null }>`
+}))<{ src: string; fit?: "medium" | "small" | null; background?: string | null; simplify?: boolean | null }>`
   width: ${(props) => (props.fit ? (props.fit === "medium" ? "2.5rem" : "3rem") : "4rem")};
   height: auto;
   margin: 0rem 1rem;
   border-radius: 1rem;
+  border: ${(props) => (props.simplify ? "solid 0.5px lightgray" : "")};
   background-color: ${(props) => props.background ?? "unset"};
   padding: ${(props) => (props.fit ? (props.fit === "medium" ? "0.75rem" : "0.5rem") : "0rem")};
 `;

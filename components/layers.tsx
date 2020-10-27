@@ -38,12 +38,12 @@ export const Content = styled(Layer)`
   align-items: center;
 `;
 
-export const IconsTop = styled(Layer)`
+export const IconsTop = styled(Layer)<{ expanded?: boolean | null }>`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
-  padding: 7rem 10rem;
+  padding: ${(props) => (props.expanded ? "7rem 0rem" : "7rem 10rem")};
 `;
 
 export const IconsBottom = styled(Layer)`
