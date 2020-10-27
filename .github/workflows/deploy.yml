@@ -3,7 +3,7 @@ name: flayyer-deploy-yarn
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
