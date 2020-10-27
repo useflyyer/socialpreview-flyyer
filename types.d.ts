@@ -31,3 +31,12 @@ declare module "*.less" {
   const none: void;
   export default none;
 }
+declare module "*.woff" {
+  const none: any;
+  export default none;
+}
+
+declare module "*.woff2" {
+  const none: any;
+  export default none;
+}
