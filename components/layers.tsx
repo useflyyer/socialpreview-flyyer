@@ -24,11 +24,7 @@ export const Background = styled(Layer)<{ color: string }>`
 export const Fade = styled(Layer)`
   background: #7325b7; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3900ac, #7325b7); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #3900ac,
-    #7325b7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #3900ac, #7325b7);
 `;
 
 export const Content = styled(Layer)`
@@ -59,7 +55,7 @@ export const HeaderStart = styled(Layer)`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 2em 2em;
+  padding: 1em;
 `;
 
 export const HeaderEnd = styled(Layer)`

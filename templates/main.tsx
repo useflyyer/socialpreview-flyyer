@@ -1,6 +1,6 @@
 import React from "react";
 
-// import styled from "styled-components";
+import styled from "styled-components";
 
 import { Title, Description, Footer, SocialIcon, Logo } from "../components/elements";
 import { Fade, Content, HeaderStart, IconsTop, IconsBottom, FooterCenter } from "../components/layers";
@@ -15,13 +15,21 @@ import Teams from "../static/teams.png";
 import Twitter from "../static/twitter.png";
 import WhatsApp from "../static/whatsapp.png";
 
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
 // Make sure to 'export default' a React component
 export default function MainTemplate({ variables }) {
   const {
-    title = "SocialPreview.io",
+    title = "Social",
+    title2 = "Preview",
+    title3 = ".io",
     description = "Find out how people perceive your website",
     footer = "Preview your links on WhatsApp, Twitter, Facebook, and more!",
     simplify = false,
+    colored = true,
   } = variables;
 
   return (
@@ -39,7 +47,17 @@ export default function MainTemplate({ variables }) {
         <SocialIcon src={Messenger} />
       </IconsTop>
       <Content>
-        <Title simplify={simplify}>{title}</Title>
+        <Row>
+          <Title colored={colored} color="#e7e700" simplify={simplify}>
+            {title}
+          </Title>
+          <Title colored={colored} color="#ff922a" simplify={simplify}>
+            {title2}
+          </Title>
+          <Title colored={colored} color="#ffff" simplify={simplify}>
+            {title3}
+          </Title>
+        </Row>
         {description && <Description simplify={simplify}>{description}</Description>}
       </Content>
       <IconsBottom>
