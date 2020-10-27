@@ -38,12 +38,27 @@ export const Content = styled(Layer)`
   align-items: center;
 `;
 
+export const IconsTop = styled(Layer)`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 7rem 10rem;
+`;
+
+export const IconsBottom = styled(Layer)`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 7rem 10rem;
+`;
+
 export const HeaderStart = styled(Layer)`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
   padding: 2em 2em;
 `;
 
@@ -52,8 +67,15 @@ export const HeaderEnd = styled(Layer)`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-
   padding: 1.5em 4em;
+`;
+
+export const HeaderCenter = styled(Layer)`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2em 0;
 `;
 
 export const FooterCenter = styled(Layer)`
@@ -61,5 +83,5 @@ export const FooterCenter = styled(Layer)`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 1.5em 0;
+  padding: 2em 0;
 `;
