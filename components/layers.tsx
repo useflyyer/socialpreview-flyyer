@@ -79,5 +79,5 @@ export const FooterCenter = styled(Layer)`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 2em 0;
+  padding: 1em 0;
 `;
