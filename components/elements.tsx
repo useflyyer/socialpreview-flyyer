@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Title = styled.h1`
   margin: 0;
   color: #ffffff;
-  font-family: 'Roboto', Arial;
+  font-family: "Roboto", Arial;
   font-size: 6rem;
 `;
 
