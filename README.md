@@ -1,4 +1,26 @@
-# 🌠 Flayyer template
+# 🌠 Flayyer example from SocialPreview.io
+
+```js
+Template: main
+variables: {
+  simplify: false,
+  colored: true,
+  description: "Preview how people perceive your website",
+}
+```
+
+![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main.jpg?raw=true)
+
+```js
+Template: main
+variables: {
+  simplify: true,
+  colored: false,
+  description: "See every link image previews from your website here",
+}
+```
+
+![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main-simplify.jpg?raw=true)
 
 Feel free to checkout the latest documentation at [app.flayyer.com/docs](http://app.flayyer.com/docs) 📖
 
@@ -43,11 +65,11 @@ You can find the URL for your deck in the terminal output.
 
 Sure. Install `npm install --save sass` and just import your SASS/SCSS files just like: `import "/styles.scss"`.
 
-> See: https://app.flayyer.com/en/docs/structure/styles
+> See: <https://app.flayyer.com/en/docs/structure/styles>
 
 ### Custom fonts
 
-Refer to https://app.flayyer.com/en/docs/structure/fonts.
+Refer to <https://app.flayyer.com/en/docs/structure/fonts>.
 
 ### Nested directories
 
