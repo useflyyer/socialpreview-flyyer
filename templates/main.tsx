@@ -32,6 +32,19 @@ export default function MainTemplate({ variables }) {
     colored = true,
   } = variables;
 
+  /**
+   * Adapt to your own booleans as with simplify & colored
+   * so you make sure your boolean vars are "boolean" typeof
+   * because "false" would return true
+   */
+  const booleans = {};
+  // simplify
+  if (typeof simplify !== "boolean") booleans["simplify"] = Boolean(simplify === "true" ? 1 : 0);
+  else booleans["simplify"] = simplify;
+  // colored
+  if (typeof colored !== "boolean") booleans["colored"] = Boolean(colored === "true" ? 1 : 0);
+  else booleans["colored"] = colored;
+
   return (
     <>
       <GlobalFonts />
