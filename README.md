@@ -6,7 +6,7 @@ This was built with `yarn create flayyer-app` using `typescript & styled-compone
 
 ---
 
-```js
+```sh
 Template: main.tsx
 variables: {
   simplify: false,
@@ -19,7 +19,7 @@ variables: {
 
 ---
 
-```js
+```sh
 Template: main.tsx
 variables: {
   simplify: true,
