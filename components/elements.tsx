@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Title = styled.h1<{ simplify: boolean | null; colored: boolean | null; color?: string | null }>`
   margin: 0;
   color: ${(props) => (props.simplify ? "#303030" : props.colored ? props.color : "#ffffff")};
-  -webkit-text-stroke: ${(props) => (props.colored ? "1px white" : "unset")};
+  -webkit-text-stroke: ${(props) => (props.colored ? "2px white" : "unset")};
   font-family: "IBM Plex Sans";
   font-size: 6.5rem;
   letter-spacing: 8px;
@@ -28,11 +28,11 @@ export const Footer = styled.h2<{ simplify: boolean }>`
   margin: 0;
   color: ${(props) => (props.simplify ? "#303030" : "#ffffff")};
   font-family: "IBM Plex Sans";
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   letter-spacing: 2px;
   text-align: center;
   padding: 0 0.5rem;
-  font-weight: 700;
+  font-weight: 300;
 `;
 
 export const Logo = styled.h2`
@@ -54,11 +54,11 @@ export const SocialIcon = styled.img.attrs<{
 }>((props) => ({
   src: props.src,
 }))<{ src: string; fit?: "medium" | "small" | null; background?: string | null; simplify?: boolean | null }>`
-  width: ${(props) => (props.fit ? (props.fit === "medium" ? "2.5rem" : "3rem") : "4rem")};
+  width: ${(props) => (props.fit ? "3.3rem" : "4.4rem")};
   height: auto;
   margin: 0rem 1rem;
   border-radius: 1rem;
-  border: ${(props) => (props.simplify ? "solid 0.5px lightgray" : "")};
+  border: ${(props) => (props.simplify ? "solid 1px lightgray" : "")};
   background-color: ${(props) => props.background ?? "unset"};
-  padding: ${(props) => (props.fit ? (props.fit === "medium" ? "0.75rem" : "0.5rem") : "0rem")};
+  padding: ${(props) => (props.fit ? (props.fit === "medium" ? "0.5rem" : "0.6rem") : "0rem")};
 `;
