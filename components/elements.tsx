@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Title = styled.h1<{ simplify: boolean | null; colored: boolean | null; color?: string | null }>`
   margin: 0;
-  color: ${(props) => (props.simplify ? "#303030" : props.colored ? props.color : "#ffffff")};
+  color: ${(props) => (props.colored ? props.color : props.simplify ? "#303030" : "#ffffff")};
   -webkit-text-stroke: ${(props) => (props.colored ? "2px white" : "unset")};
   font-family: "IBM Plex Sans";
   font-size: 6.5rem;
