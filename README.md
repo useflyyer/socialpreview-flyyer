@@ -1,18 +1,26 @@
+![flayyer-deploy-yarn](https://github.com/flayyer/socialpreview-flayyer/workflows/flayyer-deploy-yarn/badge.svg)
+
 # 🌠 Flayyer example from SocialPreview.io
 
+This was built with `yarn create flayyer-app` using `typescript & styled-components` template interactive option. Automated deploy using [flayyer-actions](https://github.com/flayyer/flayyer-actions).
+
+---
+
 ```js
-Template: main
+Template: main.tsx
 variables: {
   simplify: false,
   colored: true,
-  description: "Preview how people perceive your website",
+  description: "Find out how people perceive your website",
 }
 ```
 
 ![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main.jpeg?raw=true)
 
+---
+
 ```js
-Template: main
+Template: main.tsx
 variables: {
   simplify: true,
   colored: false,
@@ -21,6 +29,8 @@ variables: {
 ```
 
 ![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main-simplify.jpeg?raw=true)
+
+## Create your own flexible & automated image preview for your website
 
 Feel free to checkout the latest documentation at [app.flayyer.com/docs](http://app.flayyer.com/docs) 📖
 
