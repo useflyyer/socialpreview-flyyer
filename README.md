@@ -9,7 +9,7 @@ variables: {
 }
 ```
 
-![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main.jpg?raw=true)
+![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main.jpeg?raw=true)
 
 ```js
 Template: main
@@ -20,7 +20,7 @@ variables: {
 }
 ```
 
-![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main-simplify.jpg?raw=true)
+![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main-simplify.jpeg?raw=true)
 
 Feel free to checkout the latest documentation at [app.flayyer.com/docs](http://app.flayyer.com/docs) 📖
 
