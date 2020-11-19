@@ -1,0 +1,28 @@
+<svg width="1440" height="700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+ <defs>
+  <linearGradient id="gradient">
+   <stop stop-color="#4346de66" offset="5%"/>
+   <stop stop-color="#2427ca66" offset="95%"/>
+  </linearGradient>
+  <linearGradient id="gradient">
+   <stop stop-color="#4346de88" offset="5%"/>
+   <stop stop-color="#2427ca88" offset="95%"/>
+  </linearGradient>
+  <linearGradient id="gradient">
+   <stop stop-color="#4346deff" offset="5%"/>
+   <stop stop-color="#2427caff" offset="95%"/>
+  </linearGradient>
+ </defs>
+
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(180 720,294.34307861328125) " id="svg_1" class="transition-all duration-300 ease-in-out delay-150" fill="url(#gradient)" stroke-width="0" d="m0,588.68614c0,0 0,-525 0,-525c99.41627,-37.04306 198.83254,-74.08612 285,-61c86.16746,13.08612 159.08612,76.30144 268,95c108.91388,18.69856 253.82297,-7.11962 359,-36c105.17703,-28.88038 170.62201,-60.82297 252,-61c81.37799,-0.17703 178.689,31.41148 276,63c0,0 0,525 0,525l-1440,0z"/>
+  <path transform="rotate(180 720,196.9115753173828) " id="svg_2" class="transition-all duration-300 ease-in-out delay-150" fill="url(#gradient)" stroke-width="0" d="m0,393.33333c0,0 0,-350 0,-350c95.99043,-16.78469 191.98086,-33.56938 298,-23c106.01914,10.56938 222.06699,48.49282 322,39c99.93301,-9.49282 183.7512,-66.40191 282,-58c98.2488,8.40191 210.92823,82.11483 303,100c92.07177,17.88517 163.53589,-20.05742 235,-58c0,0 0,350 0,350l-1440,0z"/>
+  <path transform="rotate(180 720,110.28642272949219) " id="svg_3" class="transition-all duration-300 ease-in-out delay-150" fill="url(#gradient)" stroke-width="0" d="m0,220.57287c0,0 0,-175 0,-175c63.50239,25.5311 127.00478,51.0622 238,49c110.99522,-2.0622 269.48325,-31.7177 370,-57c100.51675,-25.2823 143.0622,-46.19139 222,-34c78.9378,12.19139 194.26794,57.48325 302,70c107.73206,12.51675 207.86603,-7.74163 308,-28c0,0 0,175 0,175l-1440,0z"/>
+ </g>
+</svg>

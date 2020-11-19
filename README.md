@@ -4,32 +4,6 @@
 
 This was built with `yarn create flayyer-app` using `typescript & styled-components` template interactive option. Automated deploy using [flayyer-actions](https://github.com/flayyer/flayyer-actions).
 
----
-
-```sh
-Template: main.tsx
-variables: {
-  simplify: false,
-  colored: true,
-  description: "Find out how people perceive your website",
-}
-```
-
-![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main.jpeg?raw=true)
-
----
-
-```sh
-Template: main.tsx
-variables: {
-  simplify: true,
-  colored: false,
-  description: "See every link image previews from your website here",
-}
-```
-
-![alt text](https://github.com/flayyer/socialpreview-flayyer/blob/main/readme-example-main-simplify.jpeg?raw=true)
-
 ## Create your own flexible & automated image preview for your website
 
 Feel free to checkout the latest documentation at [flayyer.com/docs](http://flayyer.com/docs) 📖
