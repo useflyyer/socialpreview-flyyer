@@ -47,14 +47,14 @@ const Button = styled.button`
 
   color: #fff;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 600;
   text-align: center;
   white-space: nowrap;
   border-width: 1px;
 
   justify-content: center;
-  padding: calc(0.5em - 1px) 1em;
+  padding: calc(0.5em - 1px) 0.9em;
   margin: 3rem;
   align-items: center;
   box-shadow: none;
@@ -63,7 +63,7 @@ const Button = styled.button`
 // Make sure to 'export default' a React component
 export default function MainTemplate({ variables }) {
   const {
-    title = "Social",
+    title = "SocialPreview.io",
     description = "How does your website looks like from the outside?",
     footer = "Try it for free",
   } = variables;
