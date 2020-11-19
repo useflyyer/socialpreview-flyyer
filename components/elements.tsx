@@ -29,7 +29,7 @@ export const Logo = styled.h2`
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0.35em 0.75em;
   border-radius: 5px;
 `;
