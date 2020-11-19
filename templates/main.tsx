@@ -81,9 +81,11 @@ export default function MainTemplate({ variables }) {
         {description && <Description>{description}</Description>}
       </Content>
 
-      <Page>
-        <Button>{footer}</Button>
-      </Page>
+      {footer && (
+        <Page>
+          <Button>{footer}</Button>
+        </Page>
+      )}
     </Background>
   );
 }
