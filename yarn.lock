@@ -933,10 +933,10 @@
     qs "^6.9.4"
     tslib "^2.0.3"
 
-"@flayyer/flayyer-types@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/flayyer-types/-/flayyer-types-1.0.0.tgz#b12fd137f7a357213f9b1eacefee220ce2b8f7a4"
-  integrity sha512-wxo93Dq6U72I8Ax22g0qMyZVRc0p6oMNRy6FlCNthMEGthAwuqJtrjmgWes6zxN0/rbHKoyHo3TKvRey9du2Rg==
+"@flayyer/flayyer-types@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@flayyer/flayyer-types/-/flayyer-types-1.1.0.tgz#14eadfb39d0ef4581e795355f788a74961091e82"
+  integrity sha512-rkDdMa0OvcMEp8ElGOYFmQ3geOrZiz3ZQUvraJhDwE0qUJGNjEGvINWgZmxPZCecO2VHqwABmMrlCBrT/HcrqA==
 
 "@iarna/toml@^2.2.0":
   version "2.2.5"
