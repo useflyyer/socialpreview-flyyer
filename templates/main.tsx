@@ -1,5 +1,6 @@
 import React from "react";
 
+import { TemplateProps } from "@flayyer/flayyer-types";
 import styled from "styled-components";
 
 import { Title, Description, Logo } from "../components/elements";
@@ -60,8 +61,14 @@ const Button = styled.button`
   box-shadow: none;
 `;
 
+type Variables = {
+  title: string;
+  description: string;
+  footer: string;
+};
+
 // Make sure to 'export default' a React component
-export default function MainTemplate({ variables }) {
+export default function MainTemplate({ variables }: TemplateProps<Variables>) {
   const {
     title = "SocialPreview.io",
     description = "How does your website looks like from the outside?",
