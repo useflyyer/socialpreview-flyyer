@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { Title, Description, Logo } from "../components/elements";
 import { Content, Layer } from "../components/layers";
 import GlobalFonts from "../fonts/fonts";
+import logo from "../static/logo.png";
 import waves from "../static/waves.svg";
 
 export const Background = styled(Layer)`
@@ -68,12 +69,20 @@ type Variables = {
 };
 
 // Make sure to 'export default' a React component
-export default function MainTemplate({ variables }: TemplateProps<Variables>) {
+export default function MainTemplate({ agent, variables }: TemplateProps<Variables>) {
   const {
     title = "SocialPreview.io",
     description = "How does your website looks like from the outside?",
     footer = "Try it for free",
   } = variables;
+
+  if (agent.name === "whatsapp") {
+    return (
+      <Background>
+        <img style={{ width: "100%", height: "100%" }} src={logo} />
+      </Background>
+    );
+  }
 
   return (
     <Background>
